@@ -68,7 +68,10 @@ a:visited{
     header{
         flex-direction: row;
         justify-content: space-between;
+    }
+    body > header{
         position: sticky;
+        top:0;
     }
     .nav_links{
         flex-direction: row;
